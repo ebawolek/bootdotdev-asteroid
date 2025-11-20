@@ -31,7 +31,6 @@ def main():
         for draw in drawable:
             draw.draw(screen)
         updatable.update(dt)
-        print(f"Updatable: {len(updatable)}, Drawable: {len(drawable)}, Asteroids: {len(asteroids)}")
         pygame.display.flip()
 
 
